@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag Master</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            background-color: #282c34;
+            color: white;
+        }
+        
+        h1 {
+            margin-bottom: 20px;
+            color: #61dafb;
+        }
+        #score {
+            font-size: 24px;
+            margin: 20px;
+        }
+
+
+        #flagContainer {
+            width: 300px;
+            height: 200px;
+            border: 5px solid #61dafb;
+            margin-bottom: 20px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #guessInput {
+            padding: 10px;
+            font-size: 16px;
+            margin-bottom: 20px;
+            width: 300px;
+            border-radius: 5px;
+            border: 1px solid #61dafb;
+            text-align: center;
+        }
+
+        #submitGuess {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #61dafb;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        #submitGuess:hover {
+            background-color: #21a1f1;
+        }
+
+        #hint, #score, #attempts {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div id="game">
+        <div id=" highScore"> High Score: 0</div>
+    
+    </div>
+    <h1>Flag Master</h1>
+    <div id="flagContainer"></div>
+    <input type="text" id="guessInput" placeholder="Enter country name">
+    <button id="submitGuess">Submit Guess</button>
+    <div id="hint"></div>
+    <div id="score"></div>
+    <div id="attempts"></div>
+
+    <script src="game.js"></script>
+</body>
+</html>
