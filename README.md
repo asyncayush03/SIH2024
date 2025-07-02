@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/c6118b29-f0f2-496f-b982-5615cd65fa57)<h1>Game based Learning</h1>
+<h1>Game based Learning</h1>
 <h4>SIH 2024</h4>
 
 <h1>Theory</h1>
@@ -24,6 +24,8 @@
 
 <h1>Overview of website</h1>
 <strong>Home page</strong>
-![image](https://github.com/user-attachments/assets/b2354a0c-16e4-4d39-bb39-de0dcd95e117)
+![image](https://github.com/user-attachments/assets/3bdaf0fb-1f2b-4373-ba21-07ea5986b14b)
+
 <strong>Login Page</strong>
-![image](https://github.com/user-attachments/assets/f025041b-8545-4a52-9ab5-884698ee1345)
+![image](https://github.com/user-attachments/assets/b22a7afd-ff1c-4d56-9a97-119fdf02048d)
+
